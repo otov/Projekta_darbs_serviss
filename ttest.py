@@ -19,21 +19,23 @@ foto_label.grid(row=1, column=1,columnspan=2, padx=10, pady=40)
 
 ttk.Label(logs, text="Auto servisa remonta kalkulators", font=("Helvetica", 27, "bold")).grid(row=1, column=2, columnspan=3, pady=40, padx=5)
 
-ttk.Label(logs, text="Auto marka:", font=("Helvetica", 14)).grid(row=2, column=1, pady=5, padx=5, sticky="e")
+ttk.Label(logs, text="Auto marka:", font=("Helvetica", 14)).grid(row=2, column=1, pady=5, padx=10, sticky="w")
 marka = ttk.Combobox(logs, state="readonly", values=["Volkswagen"])
 marka.current(0)
-marka.grid(row=2, column=2, pady=5, padx=5)
+marka.grid(row=2, column=2, pady=5, padx=1, sticky="w")
 
-ttk.Label(logs, text="Auto modelis:", font=("Helvetica", 14)).grid(row=2, column=3, pady=5, padx=5,sticky="e")
+ttk.Label(logs, text="Auto modelis:", font=("Helvetica", 14)).grid(row=2, column=3, pady=5, padx=10,sticky="w", columnspan=2)
 modelis = ttk.Combobox(logs, state="readonly", values=["Golf 5"])
 modelis.current(0)
-modelis.grid(row=2, column=4, pady=5, padx=5)
+modelis.grid(row=2, column=4, pady=5, padx=10, sticky="w", columnspan=2)
 
 ttk.Label(logs, text="Izvēlieties nepieciešamos pakalpojumus:", font=("Helvetica", 12, "bold")).grid(row=3, column=1, columnspan=4, sticky="w", padx=30, pady=10)
 
+#def aprekins():
 
 
 
+#def pievieno():
 
 
 
@@ -127,20 +129,33 @@ pak21.grid(row=10, column=3, padx=10)
 
 pak_info = {
     pak1: [20, 15, 1.0],
+    pak2: [],
+    pak3: [],
+    pak4: [],
+    pak5: [],
+    pak6: [],
+    pak7: [],
+    pak8: [],
+    pak9: [],
+    pak10: [],
+    pak11: [],
+    pak12: [],
+    pak13: [],
+    pak14: [],
+    pak15: [],
+    pak16: [],
+    pak17: [],
+    pak18: [],
+    pak19: [],
+    pak20: [],
+    pak21: [],
 }
 
 
 kopejascenas=tk.Listbox(logs, width=40, height=5, bg="black", fg="white", font=("Helvetica", 16, "bold"))
 kopejascenas.grid(row=11, column=1, columnspan=4, pady=1, padx=1)
 
-
-
-
 Button(logs, text="Saglabāt", font=("Helvetica", 12, "bold")).grid(row=12, column=1, columnspan=4, pady=10)
 ttk.Label(logs, text="Saziņa ar servisu: +37112345678  vwserviss@epasts.com", font=("Helvetica",15,"bold")).grid(row=13, column=2, columnspan=2,pady=1, padx=1)
-
-
-
-
 
 logs.mainloop()
