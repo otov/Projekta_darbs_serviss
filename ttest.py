@@ -184,26 +184,26 @@ kopejascenas = tk.Listbox(logs, width=50, height=5, bg="black", fg="white", font
 kopejascenas.grid(row=12, columnspan=5, pady=10, padx=10)
 
 def aprekinat():
-    kopejascenas.delete(0, END)  # Izdzēš iepriekšējos ierakstus
+    kopejascenas.delete(0, END)  
     detalas = 0
     darbs = 0
     laiks = 0
 
-    # Aprēķina kopējās cenas un darba laiku, ņemot vērā izvēlētos pakalpojumus
+    
     for pak, info in pak_info.items():
         if pak.cget("variable") and logs.getvar(pak.cget("variable")) == '1':
             detalas += info[0]
             darbs += info[1]
             laiks += info[2]
 
-    kop = detalas + darbs  # Kopējā cena
-    # Ievieto aprēķinātos datus listboxā
+    kop = detalas + darbs 
+    
     kopejascenas.insert(END, f"Aptuvenā detaļu cena: {detalas:.2f} EUR")
     kopejascenas.insert(END, f"Aptuvenā darba cena: {darbs:.2f} EUR")
     kopejascenas.insert(END, f"Aptuvenā kopējā cena: {kop:.2f} EUR")
     kopejascenas.insert(END, f"Aptuvenais darba ilgums: {laiks:.1f} h")
 
-# Saglabāšana
+
 def saglabat():
     aprekinat()
     pakalpojumi = []
