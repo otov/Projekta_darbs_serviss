@@ -36,115 +36,115 @@ ttk.Label(logs, text="Izvēlieties nepieciešamos pakalpojumus:", font=("Helveti
 
 
 e1 = BooleanVar()
-pak1 = Checkbutton(logs, text="Eļļas maiņa (+ filtrs)", variable=e1, background="#a3a3a3", font=("Helvetica", 10, "bold"), )
+pak1 = Checkbutton(logs, text="Eļļas maiņa (+ filtrs)", variable=e1, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak1.grid(row=4, column=1, padx=10,sticky="w")
 
 e2 = BooleanVar()
-pak2 = Checkbutton(logs,text="Filtru maiņa (degvielas, gaisa, salona)", variable=e2, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak2 = Checkbutton(logs,text="Filtru maiņa (degvielas, gaisa, salona)", variable=e2, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak2.grid(row=5, column=1, padx=10,sticky="w")
 
 e3 = BooleanVar()
-pak3 = Checkbutton(logs,text="Dzesēšanas šķidruma maiņa", variable=e3, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak3 = Checkbutton(logs,text="Dzesēšanas šķidruma maiņa", variable=e3, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak3.grid(row=6, column=1, padx=10,sticky="w")
 
 e4 = BooleanVar()
-pak4 = Checkbutton(logs,text="Kondicioniera uzpilde", variable=e4, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak4 = Checkbutton(logs,text="Kondicioniera uzpilde", variable=e4, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak4.grid(row=7, column=1, padx=10,sticky="w")
 
 e5 = BooleanVar()
-pak5 = Checkbutton(logs,text="Bremžu disku un kluču maiņa", variable=e5, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak5 = Checkbutton(logs,text="Bremžu disku un kluču maiņa", variable=e5, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak5.grid(row=8, column=1, padx=10,sticky="w")
 
 e6 = BooleanVar()
-pak6 = Checkbutton(logs,text="Auto diagnostika", variable=e6, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak6 = Checkbutton(logs,text="Auto diagnostika", variable=e6, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak6.grid(row=9, column=1, padx=10,sticky="w")
 
 e7 = BooleanVar()
-pak7 = Checkbutton(logs,text="Kvēpu filtra tīrīšana", variable=e7, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak7 = Checkbutton(logs,text="Kvēpu filtra tīrīšana", variable=e7, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak7.grid(row=10, column=1, padx=10,sticky="w")
 
 e8 = BooleanVar()
-pak8 = Checkbutton(logs,text="Kvēlsveču maiņa", variable=e8, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak8 = Checkbutton(logs,text="Kvēlsveču maiņa", variable=e8, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak8.grid(row=4, column=2, padx=10,sticky="w")
 
 e9 = BooleanVar()
-pak9 = Checkbutton(logs,text="Savirzes regulēšana", variable=e9, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak9 = Checkbutton(logs,text="Savirzes regulēšana", variable=e9, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak9.grid(row=5, column=2, padx=10,sticky="w")
 
 e10 = BooleanVar()
-pak10 = Checkbutton(logs,text="Amortizātoru maiņa", variable=e10, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak10 = Checkbutton(logs,text="Amortizātoru maiņa", variable=e10, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak10.grid(row=6, column=2, padx=10,sticky="w")
 
 e11 = BooleanVar()
-pak11 = Checkbutton(logs,text="Atsperu maiņa", variable=e11, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak11 = Checkbutton(logs,text="Atsperu maiņa", variable=e11, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak11.grid(row=7, column=2, padx=10,sticky="w")
 
 e12 = BooleanVar()
-pak12 = Checkbutton(logs,text="Stūres pastiprinātāja remonts", variable=e12, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak12 = Checkbutton(logs,text="Stūres pastiprinātāja remonts", variable=e12, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak12.grid(row=8, column=2, padx=10,sticky="w")
 
 e13 = BooleanVar()
-pak13 = Checkbutton(logs,text="Eļļas noplūdes novēršana (blīvju maiņa)", variable=e13, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak13 = Checkbutton(logs,text="Eļļas noplūdes novēršana (blīvju maiņa)", variable=e13, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak13.grid(row=9, column=2, padx=10,sticky="w")
 
 e14 = BooleanVar()
-pak14 = Checkbutton(logs,text="Bremžu šķidruma maiņa", variable=e14, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak14 = Checkbutton(logs,text="Bremžu šķidruma maiņa", variable=e14, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak14.grid(row=10, column=2, padx=10,sticky="w")
 
 e15 = BooleanVar()
-pak15 = Checkbutton(logs,text="Degvielas sūkņa maiņa", variable=e15, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak15 = Checkbutton(logs,text="Degvielas sūkņa maiņa", variable=e15, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak15.grid(row=4, column=3, padx=10,sticky="w")
 
 e16 = BooleanVar()
-pak16 = Checkbutton(logs,text="Ātrumkārbas eļļas maiņa", variable=e16, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak16 = Checkbutton(logs,text="Ātrumkārbas eļļas maiņa", variable=e16, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak16.grid(row=5, column=3, padx=10,sticky="w")
 
 e17 = BooleanVar()
-pak17 = Checkbutton(logs,text="Lukturu maiņa un regulēšana", variable=e17, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak17 = Checkbutton(logs,text="Lukturu maiņa un regulēšana", variable=e17, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak17.grid(row=6, column=3, padx=10,sticky="w")
 
 e18 = BooleanVar()
-pak18 = Checkbutton(logs,text="Ūdens sūkņa maiņa", variable=e18, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak18 = Checkbutton(logs,text="Ūdens sūkņa maiņa", variable=e18, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak18.grid(row=7, column=3, padx=10,sticky="w")
 
 e19 = BooleanVar()
-pak19 = Checkbutton(logs,text="Ģenerātora maiņa", variable=e19, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak19 = Checkbutton(logs,text="Ģenerātora maiņa", variable=e19, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak19.grid(row=8, column=3, padx=10,sticky="w")
 
 e20 = BooleanVar()
-pak20 = Checkbutton(logs,text="Turbīnas maiņa", variable=e20, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak20 = Checkbutton(logs,text="Turbīnas maiņa", variable=e20, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak20.grid(row=9, column=3, padx=10,sticky="w")
 
 e21 = BooleanVar()
-pak21 = Checkbutton(logs,text="Zobsiksnas maiņa", variable=e21, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak21 = Checkbutton(logs,text="Zobsiksnas maiņa", variable=e21, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak21.grid(row=10, column=3, padx=10,sticky="w")
 
 e22 = BooleanVar()
-pak22 = Checkbutton(logs,text="Akumulātora maiņa", variable=e22, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak22 = Checkbutton(logs,text="Akumulātora maiņa", variable=e22, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak22.grid(row=4, column=4, padx=10,sticky="w")
 
 e23 = BooleanVar()
-pak23 = Checkbutton(logs,text="Mehāniskās ātrumkārbas remonts un maiņa", variable=e23, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak23 = Checkbutton(logs,text="Mehāniskās ātrumkārbas remonts un maiņa", variable=e23, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak23.grid(row=5, column=4, padx=10,sticky="w")
 
 e24 = BooleanVar()
-pak24 = Checkbutton(logs,text="Automātiskās ātrumkārbas remonts un maiņa", variable=e24, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak24 = Checkbutton(logs,text="Automātiskās ātrumkārbas remonts un maiņa", variable=e24, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak24.grid(row=6, column=4, padx=10,sticky="w")
 
 e25 = BooleanVar()
-pak25 = Checkbutton(logs,text="Stūres mehānisma remonts", variable=e25, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak25 = Checkbutton(logs,text="Stūres mehānisma remonts", variable=e25, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak25.grid(row=7, column=4, padx=10,sticky="w")
 
 e26 = BooleanVar()
-pak26 = Checkbutton(logs,text="Sprauslu remonts un maiņa", variable=e26, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak26 = Checkbutton(logs,text="Sprauslu remonts un maiņa", variable=e26, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak26.grid(row=8, column=4, padx=10,sticky="w")
 
 e27 = BooleanVar()
-pak27 = Checkbutton(logs,text="Tiltu bukšu maiņa", variable=e27, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak27 = Checkbutton(logs,text="Tiltu bukšu maiņa", variable=e27, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak27.grid(row=9, column=4, padx=10,sticky="w")
 
 e28 = BooleanVar()
-pak28 = Checkbutton(logs,text="Radiatora maiņa", variable=e28, background="#a3a3a3", font=("Helvetica", 10, "bold"))
+pak28 = Checkbutton(logs,text="Radiatora maiņa", variable=e28, background="#a3a3a3", font=("Helvetica", 10, "bold"), activebackground="#a3a3a3")
 pak28.grid(row=10, column=4, padx=10,sticky="w")
 
 
